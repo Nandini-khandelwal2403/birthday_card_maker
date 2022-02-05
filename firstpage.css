@@ -1,22 +1,19 @@
-html {
-    
-    
+/* html {
     border-top: 30px;
     border-width: 30px;
     border-style: groove;
     border-color: rgb(153, 76, 20);
     background-image: url();
-}
+} */
+
 h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: normal;
     text-align: left;
     font-size: 60px;
     font-weight: 900;
     padding-left: 60px;
     color: rgb(153, 76, 20);
-    
-    
 }
 
 .subheading {
@@ -35,6 +32,7 @@ h1 {
     left: 0;
     overflow: hidden;
     z-index: 1;
+    /* opacity: 0.5; */
 }
 
 .image img {
@@ -46,15 +44,19 @@ h1 {
     height: 100%;
 }
 
+.maintext {
+    z-index: 3;
+    position: absolute;
+}
+
 .round-corners {
     border-radius: 20px;
     margin: auto;
     float: left;
     margin-right: 50px;
-
 }
+
 .Days {
-    
     font-size: 35px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: oblique;
@@ -73,9 +75,8 @@ h1 {
     font-size: 18px;
     color: darkcyan;
     font-weight: 4000;
-    z-index: 2;
+    /* z-index: 2; */
 }
-
 
 .internalPara {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
